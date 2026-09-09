@@ -43,8 +43,11 @@ logs/
 # Obsidian
 .obsidian/
 
-# Files
-X.md
-Y.md
-
 # Folders
+PYTHON/PHASE 01/
+PYTHON/PHASE 02/
+PYTHON/PHASE 03/
+PYTHON/PHASE 04/
+PYTHON/PHASE 05/
+PYTHON/PHASE 06/
+PYTHON/PHASE 07/
