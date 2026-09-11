@@ -15,7 +15,6 @@ Have fun.
 ---
 ## Contents
 1. [[PYTHON ROADMAP]]
-2. 
 
 ---
  ###### Studied & Authored by Abdullah Al Sayb Saad.

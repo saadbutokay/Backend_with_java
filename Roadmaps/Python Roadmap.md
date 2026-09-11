@@ -7,6 +7,8 @@
 3. [[How the Internet Works]]
 4. [[Development Environment Setup]]
 5. [[Git & Version Control]]
+
+---
 #### Mini Project:
 > **"Dev Journal"** – Create a markdown-based developer journal repo on GitHub.  
 > Practice daily commits, branching, and merging.
@@ -23,9 +25,9 @@
 5. [[Python Internals]]
 6. [[Virtual Environments]]
 
+---
 #### Projects:
 > **Project 1: "CLI Task Manager"**
-> 
 > - CRUD operations for tasks
 > - File-based storage (JSON)
 > - Categories, priorities, due dates
@@ -33,7 +35,6 @@
 > - Uses OOP, file handling, error handling
 
 > **Project 2: "Password Manager CLI"**
-> 
 > - Encrypt/decrypt passwords (cryptography library)
 > - Master password authentication
 > - CRUD passwords for different services
@@ -41,7 +42,6 @@
 > - Uses OOP, decorators, context managers
 
 > **Project 3: "Web Scraper & Data Pipeline"**
-> 
 > - Scrape data from a website (requests + BeautifulSoup)
 > - Clean and transform data
 > - Store in CSV/JSON
@@ -87,6 +87,7 @@
 3. [[Threading vs Multiprocessing vs Async]]
 4. [[Async HTTP Clients]]
 
+---
 #### Project:
 
 > **Project 11: "Async Web Scraper & Notification Service"**
@@ -108,6 +109,7 @@
 3. [[Integration Testing]]
 4. [[Test Coverage, CICD Pipeline & Load Testing]]
 
+---
 #### Project:
 > **Project 12: "Refactor & Test Project 8 (Blog Platform)"**
 > - Achieve 90%+ test coverage
@@ -133,6 +135,7 @@
 5. [[Kubernetes]]
 6. [[Monitoring, Logging & Observability]]
 
+---
 #### Projects:
 > **Project 13: "Full DevOps Pipeline"**
 > - Dockerize Project 8 (Blog Platform)
@@ -508,7 +511,6 @@ text
 **Time:** Ongoing
 *"Become the developer companies want to hire."*
 ### 10.1 Portfolio & Online Presence
-
 ```
 □ GitHub profile optimization:
   - Pinned repositories (best projects)
@@ -537,9 +539,6 @@ text
 ```
 
 ### 10.2 Open Source Contribution
-
-text
-
 ```
 □ Find Python open-source projects to contribute to
 □ Start with documentation fixes
@@ -550,9 +549,6 @@ text
 ```
 
 ### 10.3 Interview Preparation
-
-text
-
 ```
 □ Python technical questions (deep knowledge)
 □ System design interviews:
@@ -572,9 +568,6 @@ text
 ```
 
 ### 10.4 Soft Skills
-
-text
-
 ```
 □ Technical writing
 □ Code review skills (giving and receiving feedback)
@@ -592,9 +585,6 @@ text
 ```
 
 ### 10.5 Stay Current
-
-text
-
 ```
 □ Follow Python release notes
 □ Follow framework changelogs
@@ -608,7 +598,6 @@ text
 ```
 
 ---
-
 ## CAPSTONE PROJECT (The One That Gets You Hired)
 
 > ### **Project 20: "SaaS Multi-Tenant Project Management Platform"**
@@ -690,9 +679,7 @@ Env Management:   venv, Poetry, pip, python-dotenv
 ```
 
 ---
-
 ## DAILY STUDY SCHEDULE (Recommended)
-
 ```
 Weekdays (3–4 hours):
   - 1 hour:   Theory/concepts (read docs, watch tutorials)
