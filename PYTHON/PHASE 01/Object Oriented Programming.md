@@ -69,7 +69,6 @@ code .
 ```
 
 ---
-
 ## 1. Classes & Objects
 **CLASS** = blueprint / template.
 **OBJECT** = actual thing built from the blueprint.

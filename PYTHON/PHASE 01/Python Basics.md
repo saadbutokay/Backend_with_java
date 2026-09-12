@@ -768,7 +768,7 @@ for char in "Python":
 ```
 
 #### Using the `range()` Function
-To repeat code a specific number of times, pair the loop with the [Python range() function](https://www.w3schools.com/python/ref_func_range.asp). The endpoint is exclusive.
+To repeat code a specific number of times, pair the loop with the python `range()` [function](https://www.w3schools.com/python/ref_func_range.asp). The endpoint is exclusive.
 ```python
 # Prints 0, 1, 2, 3, 4
 for i in range(5):
@@ -936,6 +936,11 @@ for i in range(2):        # Outer loop
 ---
 ## 9. Collections - Lists, Tuples, Sets, Dicts
 These are the most important [[Data Structures|data structures]] in Python. You will use these EVERY SINGLE DAY.
+```python
+nums = [1, 2, 3, 4, 5] # lists (Ordered, mutable, duplicatable)  
+nums2 = {1, 2, 3, 4, 5} # sets (Unordered, mutable, not duplicatable)  
+nums3 = (1, 2, 3, 4, 4) # tuples (Ordered, immutable, duplicatable)
+```
 Collection = single "variable" used to store multiple values.
 - `LISTS` - `[]` **ordered** & **changeable**. Duplicates OK.
 - `SET` - `{}` **Unordered** & **Unique**. but Add/Remove OK. No Duplicates.
@@ -963,7 +968,6 @@ print(numbers[-1])     # 5 (last)
 print(numbers[1:3])    # [2, 3] (slicing)
 
 # CRUD Operations:
-
 # CREATE (adding items)
 numbers.append(6)            # add to end: [1,2,3,4,5,6]
 numbers.insert(0, 0)         # insert at index: [0,1,2,3,4,5,6]
@@ -1069,11 +1073,10 @@ pending = all_users - completed_onboarding
 print(pending)  # {2, 4}
 ```
 
-
 ### 9.3 Tuples - Ordered, Unchangeable
 Tuples in Python are **ordered**, **immutable** collections of items. They allow duplicate values and can hold mixed data types (strings, numbers, etc.). Once created, you cannot change, add, or remove their elements.
 
-Examples of tuples are mixed with [[#11. Unpacking & Packing|packing & unpacking]]. Try to understand both at the same time. and learn Tuples [here](https://youtu.be/w6hL_dszMxk).
+Examples of tuples are mixed with [[#11. Unpacking & Packing|packing & unpacking]]. Try to understand both at the same time and learn Tuples [here](https://youtu.be/w6hL_dszMxk).
 ```python
 # TUPLES
 # Like lists BUT cannot be changed after creation
@@ -1285,7 +1288,7 @@ print(unique_emails)  # {'alice@test.com', 'bob@test.com'}
 ---
 ## 11. Unpacking & Packing
 **Packing and unpacking** in Python refer to grouping multiple individual values into a single collection (packing) and extracting values from a collection back into separate variables (unpacking). These operations make code highly readable, concise, and dynamic.
-Watch [this](https://youtu.be/-mS7K2K1IWk) for better understanding.
+Watch [this](https://youtu.be/_kNL5NcOqkg) for better understanding. Also [this](https://youtu.be/mSUBfY-Geuc).
 ```python
 # ─────────────────────────────────────────
 # UNPACKING

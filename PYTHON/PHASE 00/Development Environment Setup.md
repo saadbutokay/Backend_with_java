@@ -617,7 +617,7 @@ pip + `requirements.txt` problems:
   ❌ No built-in virtual env management
   ❌ Versions can be loose/unpredictable
 ```
-Poetry solves ALL of this. Industry is moving toward Poetry. Many companies use it. use [[Poetry Cheatsheet]] for quick access.
+Poetry solves ALL of this. Industry is moving toward Poetry. Many companies use it. use [[poetry Cheatsheet]] for easy access.
 
 Poetry advantages:
 ```
@@ -726,7 +726,7 @@ poetry config virtualenvs.in-project true
 ```
 This forces Poetry to build the environment right inside your project directory in a hidden folder called `.venv`.
 
-Or you can just create a virtual environment with [[#`.env` Files|.env]] method.
+Or you can just create a virtual environment with [[Virtual Environments#4. `.env` Files - Environment Variables|.env]] method.
 
 **Installing packages with Poetry:**
 ```bash
@@ -893,7 +893,6 @@ my_project/
     ├── __init__.py
     └── test_main.py
 ```
-More Detailed Version [[Python Project Structure|here]].
 
 ---
 ## Hands-On Practice

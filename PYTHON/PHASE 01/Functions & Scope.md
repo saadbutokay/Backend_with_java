@@ -36,7 +36,7 @@ token = validate_token(request.headers.get("Authorization"))
 
 # Logic changes? Update ONE place. Done.
 ```
-**Functions are the foundation of maintainable code.** Watch [this](https://youtu.be/89cGQjB5R4M) for better understanding.
+**Functions are the foundation of maintainable code.** Watch [this](https://youtu.be/89cGQjB5R4M) for better understanding. Also [this](https://youtu.be/u-OmVr_fT4s).
 
 ---
 ## Setup
@@ -58,7 +58,7 @@ cd project_folder_name
 poetry config virtualenvs.in-project true
 poetry install
 source <(poetry env activate)
-touch functions.pyc
+touch functions.py
 ```
 
 ---
@@ -145,6 +145,7 @@ else:
 
 ---
 ## 2. Parameters & Arguments
+In [Python](https://www.python.org/), the terms **parameters** and **arguments** are closely related and often used interchangeably, but they refer to two distinct stages of a function.
 
 ### The Difference
 **Parameter** = variable in the function DEFINITION.
@@ -248,7 +249,8 @@ response = create_api_response(
 
 ---
 ## 3. `*args` and `**kwargs`
-
+In Python, **`*args` and `**kwargs`** allow a function to accept an **arbitrary number of arguments**. This makes your functions flexible and capable of handling varying inputs without breaking the function signature.
+Watch [this](https://youtu.be/Vh__2V2tXUM) for better understanding.
 ### `*args` - Variable Positional Arguments
 When you don't know how many arguments will be passed. `*args` collects them all into a TUPLE.
 ```python
@@ -363,7 +365,7 @@ def paginate_query(
 
 ---
 ## 4. Scope - The LEGB Rule
-Scope = where a variable is visible/accessible.
+Scope = where a variable is visible/accessible. Watch [this](https://youtu.be/38uGbVYICwg).
 Python has 4 levels of scope:
 ```
 L — Local      (inside the current function)
@@ -496,10 +498,9 @@ print(x)            # L: not here → E: not here → G: global → found! print
 ```
 
 ---
-
 ## 5. Closures
 A closure is a function that REMEMBERS the variables from its enclosing scope, even after that scope is gone.
-Like a backpack - the inner function carries variables from the outer function wherever it goes.
+Like a backpack - the inner function carries variables from the outer function wherever it goes. Watch [this](https://youtu.be/tNSOaA1z6Uo).
 ```python
 def make_multiplier(factor):
     # 'factor' lives in make_multiplier's scope
@@ -601,7 +602,7 @@ print(counter(5))   # 17
 
 ---
 ## 6. Lambda Functions
-Lambda = anonymous (no-name) function written in ONE line for SIMPLE operations.
+Lambda = anonymous (no-name) function written in ONE line for SIMPLE operations. Watch [this](https://youtu.be/IljPHDyBRog).
 
 **Syntax:** `lambda parameters: expression`
 ```python
@@ -687,7 +688,7 @@ def process(x):
 
 ---
 ## 7. Higher-Order Functions
-A higher-order function either: Takes a function as an argument, OR Returns a function as output (like closures).
+A higher-order function either: Takes a function as an argument, OR Returns a function as output (like closures). Watch [this](https://youtu.be/xZtTIm3fpfA).
 
 Functions are "first-class" in Python:
 - Can be stored in variables
